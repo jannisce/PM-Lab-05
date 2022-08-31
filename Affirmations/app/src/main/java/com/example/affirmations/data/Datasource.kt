@@ -1,22 +1,22 @@
 package com.example.affirmations.data
 
 import com.example.affirmations.R
-import com.example.affirmations.model.Affirmation
+import com.example.affirmations.model.Plant
 
-class Datasource {
+class Datasource() {
 
-    fun loadAffirmations(): List<Affirmation> {
-        return listOf<Affirmation>(
-            Affirmation(R.string.affirmation1),
-            Affirmation(R.string.affirmation2),
-            Affirmation(R.string.affirmation3),
-            Affirmation(R.string.affirmation4),
-            Affirmation(R.string.affirmation5),
-            Affirmation(R.string.affirmation6),
-            Affirmation(R.string.affirmation7),
-            Affirmation(R.string.affirmation8),
-            Affirmation(R.string.affirmation9),
-            Affirmation(R.string.affirmation10)
+    fun loadAffirmations(): List<Plant> {
+        return listOf<Plant>(
+            Plant(R.string.affirmation1, "https://imgur.com/t/plants_vs_zombies/OZU06CJ"),
+            Plant(R.string.affirmation2, "https://imgur.com/t/plants_vs_zombies/FLXxq"),
+            Plant(R.string.affirmation3, "https://imgur.com/t/plants_vs_zombies/lvLkbAh"),
+            Plant(R.string.affirmation4, "https://imgur.com/t/plants_vs_zombies/Jj8Pm"),
+            Plant(R.string.affirmation5, "https://imgur.com/t/plants_vs_zombies/86pJ9"),
+            Plant(R.string.affirmation6, "https://imgur.com/t/plants_vs_zombies/UzRaF"),
+            Plant(R.string.affirmation7, "https://imgur.com/t/plants_vs_zombies/yKxRN"),
+            Plant(R.string.affirmation8, "https://imgur.com/t/plants_vs_zombies/qR2SPXg"),
+            Plant(R.string.affirmation9, "https://imgur.com/t/plants_vs_zombies/2KfQO0f"),
+            Plant(R.string.affirmation10, "https://imgur.com/t/plants_vs_zombies/eBFfYUx")
         )
     }
 }
